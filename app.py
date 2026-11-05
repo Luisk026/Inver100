@@ -8,14 +8,16 @@ st.set_page_config(page_title="INVER100", page_icon="💹", layout="wide")
 
 # ---------- Estilo ----------
 st.markdown("""<style>
-[data-testid="stApp"]{background:linear-gradient(145deg,#0b1425,#101f33);color:#edf4ff}
-[data-testid="stSidebar"]{background:#0d1c30}
-[data-testid="stMetric"]{background:#172b43;padding:15px;border-radius:14px;border:1px solid #29415b}
-.hero{background:linear-gradient(120deg,#10243a,#14455a);border:1px solid #2dd4bf55;border-radius:22px;
-padding:28px 36px;margin-bottom:18px;display:flex;justify-content:space-between;align-items:center;gap:24px}
-.hero h1{font-size:4.2rem;margin:0;line-height:1;color:#5eead4;letter-spacing:.04em}
-.hero p{margin:.5rem 0 0;font-size:1.15rem;color:#cfe3f7}
+[data-testid="stApp"]{background:linear-gradient(135deg,#0f0c29,#241b5a 55%,#0f3a5f);color:#f1f5f9}
+[data-testid="stSidebar"]{background:#140f33;border-right:1px solid #3b2f7a}
+[data-testid="stMetric"]{background:linear-gradient(135deg,#1e1b4b,#17335a);padding:16px;border-radius:16px;border:1px solid #fbbf2455;box-shadow:0 6px 18px #0006}
+[data-testid="stMetricValue"]{color:#fbbf24}
+.hero{background:linear-gradient(120deg,#3b1d8f,#0e7490);border:1px solid #fbbf2466;border-radius:24px;padding:30px 38px;margin-bottom:18px;display:flex;justify-content:space-between;align-items:center;gap:24px;box-shadow:0 10px 30px #0008}
+.hero h1{font-size:4.2rem;margin:0;line-height:1;background:linear-gradient(90deg,#fbbf24,#f472b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:.04em}
+.hero p{margin:.5rem 0 0;font-size:1.15rem;color:#e0e7ff}
 .hero svg{max-width:340px;width:100%}
+.hero svg polyline{stroke:#fbbf24 !important}
+button[role="tab"]{font-size:1.05rem}
 </style>""", unsafe_allow_html=True)
 
 st.markdown("""<div class="hero"><div><h1>INVER100</h1>
